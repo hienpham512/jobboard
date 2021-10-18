@@ -1,0 +1,608 @@
+/******************* Pop up *****************************/
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.alert_se {
+    display: none;
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+}
+
+.popup-form {
+    padding: 100px;
+    text-align: center;
+}
+
+
+/* Close Button */
+
+.close-button {
+    color: #000000;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.name-lastname {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.marginform {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+/******************* End Pop up *****************************/
+
+.form_administrator {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.button_admin {
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
+
+table {
+    table-layout: fixed;
+}
+
+td {
+    word-wrap: break-word !important;
+    border-right: 1px solid #DEE2E6 !important;
+    border-left: 1px solid #DEE2E6 !important;
+}
+
+.header {
+    padding-bottom: 6px;
+    padding-top: 25px;
+}
+
+.apply {
+    display: none;
+}
+
+.apply-button {
+    margin-left: 10px;
+    margin-top: 5%;
+}
+
+.menu {
+    color: #c6262d;
+}
+
+.more {
+    display: none;
+}
+
+.learnmore {
+    text-align: right;
+}
+
+.read {
+    margin-top: 5%;
+}
+
+.font-title {
+    font-size: 30px;
+}
+
+footer {
+    border-top: rgba(0, 0, 0, 0.205) 1px solid;
+    box-shadow: 0px -2px 3px rgba(0, 0, 0, 0.096);
+}
+
+.error_message_div {
+    margin-top: -25px;
+}
+
+@media (min-width: 0px) and (max-width: 380px) {
+    .login {
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 50px;
+        margin-top: 30px;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 15px;
+    }
+    .popup-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 70%;
+    }
+    .flexx {
+        width: 90%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+        padding: 15px;
+    }
+    .background-image {
+        width: 15px;
+        margin: 50px;
+    }
+    .flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .search {
+        text-align: center;
+        background-color: #c6262d;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .borderline {
+        margin-left: 12%;
+        padding-top: 20px;
+    }
+    .logo1 {
+        width: 50%;
+        text-align: left;
+    }
+    .mb-display-none {
+        display: none;
+    }
+    .mobile_header {
+        background-color: #212529;
+        width: 100% !important;
+        padding: 20px;
+        right: 0;
+        left: 0;
+    }
+    /******************* sidebar    *****************************/
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        width: 200px !important;
+    }
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+    }
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    /******************* End sidebar    *****************************/
+    /******************* Admin **********************************/
+    .title_admin {
+        padding: 10px;
+        text-align: center;
+    }
+    .dropdown_admin {
+        position: fixed;
+        bottom: 0;
+    }
+    .admin_tab {
+        padding: 80px;
+    }
+    .button_admin {
+        padding: 40px;
+        margin-top: 40px;
+        margin-right: 100px;
+    }
+    .table_admin_border {
+        border: solid;
+        border-color: #0D6EFD;
+        border-width: 1px;
+        margin-top: 10px;
+    }
+    .table_head_admin {
+        border: solid;
+        border-width: 1px;
+    }
+    /******************* End Admin ******************************/
+}
+
+@media (min-width: 380px) and (max-width: 767px) {
+    .login {
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 50px;
+        margin-top: 30px;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 15px;
+    }
+    .flexx {
+        width: 90%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+        padding: 15px;
+    }
+    .flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .fontTitle {
+        font-size: 15px;
+    }
+    .search {
+        text-align: center;
+        background-color: #c6262d;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .borderline {
+        margin-left: 8%;
+        padding-top: 20px;
+    }
+    .logo1 {
+        width: 50%;
+        text-align: left;
+    }
+    .mb-display-none {
+        display: none;
+    }
+    .mobile_header {
+        background-color: #212529;
+        width: 100%;
+        padding: 20px;
+        right: 0;
+        left: 0;
+    }
+    /******************* sidebar    *****************************/
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        width: 200px !important;
+    }
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+    }
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    /******************* End sidebar    *****************************/
+    /******************* Admin **********************************/
+    .title_admin {
+        padding: 10px;
+        text-align: center;
+    }
+    .dropdown_admin {
+        position: fixed;
+        bottom: 0;
+    }
+    .admin_tab {
+        padding: 80px;
+    }
+    .button_admin {
+        padding: 40px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .table_admin_border {
+        border: solid;
+        border-color: #0D6EFD;
+        border-width: 1px;
+        margin-top: 10px;
+    }
+    .table_head_admin {
+        border: solid;
+        border-width: 1px;
+    }
+    /******************* End Admin ******************************/
+}
+
+@media (min-width: 767px) {
+    .login {
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-bottom: 50px;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 15px;
+    }
+    .flexx {
+        width: 44%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 3%;
+        padding: 15px;
+    }
+    .flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .search {
+        text-align: center;
+        background-color: #c6262d;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: -50px;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .borderline {
+        margin: 1%;
+        padding-top: 20px;
+    }
+    .logo {
+        width: 40%;
+    }
+    .colorFont {
+        color: #c6262d !important;
+    }
+    .icons {
+        margin-right: 2%;
+    }
+    .mobile_header {
+        display: none;
+    }
+    .lg-display-none {
+        display: none;
+    }
+    /******************* SideBar    *****************************/
+    .sidebar {
+        margin: 0;
+        padding: 5px;
+        width: 200px !important;
+        background-color: #f1f1f1;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+    }
+    .sidebar a {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+    }
+    .sidebar a.active {
+        background-color: #04AA6D;
+        color: white;
+    }
+    .sidebar a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+    }
+    div.content {
+        margin-left: 200px;
+        padding: 1px 16px;
+        height: 1000px;
+    }
+    .inverse {
+        margin-left: 15%;
+    }
+    /******************* End Sidebar ****************************/
+    /******************* Admin **********************************/
+    .title_admin {
+        padding: 10px;
+        text-align: center;
+    }
+    .dropdown_admin {
+        position: fixed;
+        bottom: 0;
+    }
+    .admin_tab {
+        margin-left: 190px;
+        padding: 80px;
+    }
+    .button_admin {
+        padding: 40px;
+        margin-top: 40px;
+        margin-right: 10px;
+    }
+    .table_admin_border {
+        border: solid;
+        border-color: #0D6EFD;
+        border-width: 1px;
+        margin-top: 10px;
+    }
+    .table_head_admin {
+        border: solid;
+        border-width: 1px;
+    }
+    /******************* End Admin ******************************/
+    /******************* login section ******************************/
+    .login_flexx {
+        width: 29%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 3%;
+        padding: 15px;
+    }
+    .login_content {
+        width: 70%;
+    }
+    .login_flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+
+/******************* End login section **************************/
+
+@media (min-width: 1200px) {
+    .login {
+        margin-right: 25%;
+        margin-left: 25%;
+        margin-bottom: 50px;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 15px;
+    }
+    .flexx {
+        width: 29%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 3%;
+        padding: 15px;
+    }
+    .flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .search {
+        text-align: center;
+        background-color: #c6262d;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: -50px;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .borderline {
+        margin: 1%;
+        padding-top: 20px;
+    }
+    .logo {
+        width: 30%;
+    }
+    .colorFont {
+        color: #c6262d !important;
+    }
+    .mobile_header {
+        display: none;
+    }
+    .lg-display-none {
+        display: none;
+    }
+    /******************* SideBar    *****************************/
+    .sidebar {
+        margin: 0;
+        padding: 5px;
+        width: 200px !important;
+        background-color: #f1f1f1;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+    }
+    .sidebar a {
+        display: block;
+        color: black;
+        padding: 16px;
+        text-decoration: none;
+    }
+    .sidebar a.active {
+        background-color: #04AA6D;
+        color: white;
+    }
+    .sidebar a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+    }
+    div.content {
+        margin-left: 200px;
+        padding: 1px 16px;
+        height: 1000px;
+    }
+    .inverse {
+        margin-left: 15%;
+    }
+    /******************* End Sidebar ****************************/
+    /******************* Admin **********************************/
+    .title_admin {
+        padding: 10px;
+        text-align: center;
+    }
+    .dropdown_admin {
+        position: fixed;
+        bottom: 0;
+    }
+    .admin_tab {
+        margin-left: 200px;
+        padding: 80px;
+    }
+    .button_admin {
+        padding: 40px;
+        margin-top: 40px;
+        margin-right: 0px;
+    }
+    .table_admin_border {
+        border: solid;
+        border-color: #0D6EFD;
+        border-width: 1px;
+        margin-top: 10px;
+    }
+    .table_head_admin {
+        border: solid;
+        border-width: 1px;
+    }
+    /******************* End Admin ******************************/
+}
